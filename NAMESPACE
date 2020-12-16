@@ -1,0 +1,4 @@
+useDynLib(AMA)
+
+import(rJava)
+export(callAMA, genBmat, genQmat, genScof, getReturnCode, getStochTrans, getFactorMatrices, genHmatrixScripts, genHmat)
